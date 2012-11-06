@@ -1,0 +1,3 @@
+;; -*- mode: emacs-lisp -*-
+;; History entries used for anything adaptive display.
+(setq anything-c-adaptive-history (quote ((file ("/Users/hidemi/myproject/etc/irc_server_scheme/src/hatena.scm" ("hatena" . 1)) ("~/Desktop/irc_server_scheme/src/hatena.scm" ("" . 1)) ("~/.emacs.el" ("" . 1)) ("~/myproject/etc/emacs/carbon_emacs/dot.emacs.el" (".emacs." . 1))))))

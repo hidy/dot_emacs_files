@@ -1,0 +1,45 @@
+#
+# $URL: file:///home/ryo/svn/zshconf/trunk/zshrc.bsd $
+# $Id: zshrc.bsd 2 2006-02-27 16:31:19Z hidemi $
+
+echo "Loading $HOME/.zsh/zshrc.bsd"
+
+# adding own path
+path=($path /stand /rescue)
+
+# editor setting
+export EDITOR=vi
+
+# Japanese enviroment
+#export LANG=ja_JP.EUC
+export LANG=ja_JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
+export LC_TYPE=ja_JP.UTF-8
+export LC_CTYPE=ja_JP.UTF-8
+
+export LSCOLORS=$LS_COLORS
+
+
+# for FreeBSD 5.x
+alias /entropy='cd /etc'
+
+alias tf='tail -0 -F'
+alias top='top -I -s 1 -o cpu'
+
+alias ps_jail='ps aux | grep "J "'
+alias ipfw_ls='ipfw -at list'
+alias get='fetch -aq'
+
+function precmd () {
+
+  epoch=`date "+%s"`
+  if [ `expr $epoch % 3` != 0 ]; then
+    return
+  fi
+
+  load=`uptime | sed -e 's/.*: \([^, ]*\).*/\1/'`
+  if [ $load -gt 2.0 ]; then
+    echo "zsh: load avg is $load !"
+  fi
+}
+

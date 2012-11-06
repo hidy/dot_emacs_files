@@ -1,0 +1,43 @@
+#
+# $URL: file:///home/ryo/svn/zshconf/trunk/aliases $
+# $Id: aliases 2 2006-02-27 16:31:19Z ryo $
+
+echo "Loading $HOME/.zsh/aliases"
+
+alias dir='ls -lF'
+alias df='df -h'
+alias du='du -ackh'
+alias diff='diff -NBaur'
+alias scp='scp -p'
+alias lynx='lynx -cfg ~/.lynxrc'
+alias swapinfo='swapinfo -k'
+alias dvi2tty='dvi2tty -ql'
+alias cp='cp -i'
+#alias la='ls -lhAF --color=auto'
+alias la='ls -lhAF'
+#alias ls='ls -F --color=auto'
+alias ls='ls -F'
+alias emacs='emacs-snapshot &'
+
+alias x='startx'
+
+alias -g G='| grep'
+alias -g M='| more'
+alias -g T='| tail'
+alias -g J='| nkf -w'
+
+# mistype recovery
+alias ,,='cd ../'
+alias //_='cd ../'
+alias ...='cd ../'
+
+alias myadmin='mysqladmin -u root -p'
+alias vtop='vmstat -nmM -c1000 -w2'
+
+#unalias rm >& /dev/null
+#unalias cp >& /dev/null
+#unalias mv >& /dev/null
+
+#alias pu=pushd
+#alias po=popd
+#alias push='pushd +1'

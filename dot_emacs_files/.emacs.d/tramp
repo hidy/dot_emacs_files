@@ -1,0 +1,116 @@
+;; -*- emacs-lisp -*- <09/02/18 17:48:17 /home/ht/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+(([#("sshx" 0 1
+     (auto-composed t)
+     1 2
+     (auto-composed t)
+     2 3
+     (auto-composed t)
+     3 4
+     (auto-composed t))
+   #("ht" 0 1
+     (auto-composed t)
+     1 2
+     (auto-composed t))
+   #("metis" 0 1
+     (auto-composed t)
+     1 2
+     (auto-composed t)
+     2 3
+     (auto-composed t)
+     3 4
+     (auto-composed t)
+     4 5
+     (auto-composed t))
+   nil]
+  ("uname" "Linux 2.6.22.5-31-default")
+  ("test" "test")
+  ("/bin" t)
+  ("/usr/bin" t)
+  ("/usr/sbin" t)
+  ("/usr/local/bin" t)
+  ("/local/bin" nil)
+  ("/local/freeware/bin" nil)
+  ("/local/gnu/bin" nil)
+  ("/usr/freeware/bin" nil)
+  ("/usr/pkg/bin" nil)
+  ("/usr/contrib/bin" nil)
+  ("remote-path"
+   ("/bin" "/usr/bin" "/usr/sbin" "/usr/local/bin"))
+  ("remote-shell" "/bin/sh")
+  ("ls" "/bin/ls")
+  ("file-exists" "test -e")
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 100)
+  ("local-encoding" base64-encode-region)
+  ("local-decoding" base64-decode-region)
+  ("remote-encoding" "mimencode -b")
+  ("remote-decoding" "mimencode -u -b")
+  ("uid-integer" 1000)
+  ("~" "/home/ht"))
+ ([#("sshx" 0 4
+     (auto-composed t))
+   #("ad001ht01" 0 1
+     (auto-composed t)
+     1 2
+     (auto-composed t)
+     2 3
+     (auto-composed t)
+     3 4
+     (auto-composed t)
+     4 5
+     (auto-composed t)
+     5 6
+     (auto-composed t)
+     6 7
+     (auto-composed t)
+     7 8
+     (auto-composed t)
+     8 9
+     (auto-composed t))
+   #("web.pcse" 0 1
+     (auto-composed t)
+     1 2
+     (auto-composed t)
+     2 3
+     (auto-composed t)
+     3 4
+     (auto-composed t)
+     4 5
+     (auto-composed t)
+     5 6
+     (auto-composed t)
+     6 7
+     (auto-composed t)
+     7 8
+     (auto-composed t))
+   nil]
+  ("uname" "Linux 2.4.21-32.0.1.EL")
+  ("test" "test")
+  ("/bin" t)
+  ("/usr/bin" t)
+  ("/usr/sbin" t)
+  ("/usr/local/bin" t)
+  ("/local/bin" nil)
+  ("/local/freeware/bin" nil)
+  ("/local/gnu/bin" nil)
+  ("/usr/freeware/bin" nil)
+  ("/usr/pkg/bin" nil)
+  ("/usr/contrib/bin" nil)
+  ("remote-path"
+   ("/bin" "/usr/bin" "/usr/sbin" "/usr/local/bin"))
+  ("remote-shell" "/bin/sh")
+  ("ls" "/bin/ls")
+  ("file-exists" "test -e")
+  ("stat" "/usr/bin/stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 100)
+  ("perl" "/usr/bin/perl")
+  ("local-encoding" base64-encode-region)
+  ("local-decoding" base64-decode-region)
+  ("remote-encoding" tramp-perl-encode-with-module)
+  ("remote-decoding" tramp-perl-decode-with-module)
+  ("uid-integer" 502)))
